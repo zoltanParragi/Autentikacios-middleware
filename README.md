@@ -6,7 +6,7 @@ PHP 8.2.0
 
 ## Teszt felhasználó
 
-- Email: test@tst.tst
+- Email: test@test.test
 - Jelszó: test
 
 ## Tulajdonságok
