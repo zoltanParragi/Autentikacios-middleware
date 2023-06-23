@@ -25,7 +25,7 @@ if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
 if(strlen($email_error) > 0){
     $_SESSION["flash"]["post"] = $post;
-    $_SESSION["flash"]["msg"] = ['value' => $email_error, 'type' => 'errormsg'];
+    $_SESSION["flash"]["msg"] = ['value' => $email_error];
 } else {
     $password = mysqli_real_escape_string($connection, $password);
     $email = mysqli_real_escape_string($connection, $email);

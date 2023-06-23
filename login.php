@@ -12,8 +12,7 @@ call_user_func($middleware["logged_in"]);
 </head>
 <body>
     <?php include("includes/nav.php") ?>
-    <div class="formWrapper">
-    <header>
+    <div class="wrapper">
         <?php
             if(isset($_SESSION["flash"]["msg"])){
         ?>
@@ -33,7 +32,7 @@ call_user_func($middleware["logged_in"]);
             <br><br>
             <button>Belépés</button>
         </form>
-    </header>
+    </div>
 </body>
 </html>
 <?php unset($_SESSION["flash"]);?>
