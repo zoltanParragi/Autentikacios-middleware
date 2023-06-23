@@ -2,7 +2,7 @@
 
 ## PHP verzió
 
-PHP 8.0
+PHP 8.2.0
 
 ## Teszt felhasználó
 
